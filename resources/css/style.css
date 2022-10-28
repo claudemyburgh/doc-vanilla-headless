@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@layer components {
+    .wrapper {
+        @apply mx-auto px-4 md:px-6 max-w-7xl;
+    }
+}
